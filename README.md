@@ -23,6 +23,7 @@ hadoop fs -tail [result folder]/[result filename]
 ```
 
 ## Mapreduce data form
+```
 Step1
   Map
     Input : [song_no]|[time_table]|[access_route]|[customer_no]
@@ -53,7 +54,4 @@ Step4
   Reduce
     Input : ([customer_no], [song_no]@[tfidf])
     Output : [customer_no](tab)[influencesong_no]
-
-## References
-- Image Quilting for Texture Synthesis and Transfer(Alexei A. Efros, William T. Freeman)
-  - link : http://graphics.cs.cmu.edu/people/efros/research/quilting/quilting.pdf
+```
